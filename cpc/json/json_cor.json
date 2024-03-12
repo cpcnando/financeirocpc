@@ -1,0 +1,28 @@
+{
+  "lista": [
+    {
+      "codigo": "A",
+        "nome": "Amarelo"
+      },
+      {
+        "codigo": "B",
+        "nome": "Branco"
+      },
+      {
+        "codigo": "I",
+        "nome": "Indigena"
+      },
+      {
+        "codigo": "N",
+        "nome": "Negro"
+      },
+      {
+        "codigo": "P",
+        "nome": "Pardo"
+      },
+      {
+        "codigo": "S",
+        "nome": "Sem Informacao"
+      }
+    ]
+  }

@@ -1,0 +1,181 @@
+{
+  "lista": [
+      {
+        "codigo": "0",
+        "nome": "INDEFINIDO"
+      },
+      {
+        "codigo": "1",
+        "nome": "PLANSERV"
+      },
+      {
+        "codigo": "2",
+        "nome": "BRADESCO INDIVIDUAL"
+      },
+      {
+        "codigo": "3",
+        "nome": "UNIMED SUDOESTE"
+      },
+      {
+        "codigo": "4",
+        "nome": "GEAP/PATRONAL"
+      },
+      {
+        "codigo": "5",
+        "nome": "CASSI"
+      },
+      {
+        "codigo": "6",
+        "nome": "SULAMERICA"
+      },
+      {
+        "codigo": "7",
+        "nome": "ASFEB"
+      },
+      {
+        "codigo": "8",
+        "nome": "FILANTROPIA"
+      },
+      {
+        "codigo": "9",
+        "nome": "TISS"
+      },
+      {
+        "codigo": "10",
+        "nome": "SUS"
+      },
+      {
+        "codigo": "11",
+        "nome": "DISCO CPC"
+      },
+      {
+        "codigo": "12",
+        "nome": "CAPSAUDE"
+      },
+      {
+        "codigo": "13",
+        "nome": "PARTICULAR"
+      },
+      {
+        "codigo": "14",
+        "nome": "UNIBANCO"
+      },
+      {
+        "codigo": "15",
+        "nome": "IH SAUDE"
+      },
+      {
+        "codigo": "16",
+        "nome": "COELBA/FAELBA/FACHESF"
+      },
+      {
+        "codigo": "17",
+        "nome": "AGF Saude"
+      },
+      {
+        "codigo": "18",
+        "nome": "BRADESCO EMPRESA"
+      },
+      {
+        "codigo": "19",
+        "nome": "UNIMED SALVADOR"
+      },
+      {
+        "codigo": "20",
+        "nome": "SESEF"
+      },
+      {
+        "codigo": "21",
+        "nome": "CONAB"
+      },
+      {
+        "codigo": "22",
+        "nome": "MEDIAL SAUDE"
+      },
+      {
+        "codigo": "23",
+        "nome": "MILITAR"
+      },
+      {
+        "codigo": "24",
+        "nome": "PORTO SEGURO"
+      },
+      {
+        "codigo": "25",
+        "nome": "MEDISERVICE"
+      },
+      {
+        "codigo": "26",
+        "nome": "CAMED"
+      },
+      {
+        "codigo": "27",
+        "nome": "UNIMED INTERCAMBIO"
+      },
+      {
+        "codigo": "28",
+        "nome": "CARTAO CREDITO/DEBITO"
+      },
+      {
+        "codigo": "29",
+        "nome": "GOLDEN CROSS"
+      },
+      {
+        "codigo": "30",
+        "nome": "PETROBRAS"
+      },
+      {
+        "codigo": "31",
+        "nome": "PLANSERV P. FISICA"
+      },
+      {
+        "codigo": "32",
+        "nome": "FUNCEF",
+        "nome": "SAUDE CAIXA ECON"
+      },
+      {
+        "codigo": "33",
+        "nome": "ASSEFAZ"
+      },
+      {
+        "codigo": "34",
+        "nome": "VITALLIS"
+      },
+      {
+        "codigo": "35",
+        "nome": "PROMEDICA"
+      },
+      {
+        "codigo": "36",
+        "nome": "FASSINCRA"
+      },
+      {
+        "codigo": "37",
+        "nome": "MasterMed"
+      },
+      {
+        "codigo": "38",
+        "nome": "Postal Saude"
+      },
+      {
+        "codigo": "39",
+        "nome": "REEMBOLSO"
+      },
+      {
+        "codigo": "40",
+        "nome": "PARCEIROS"
+      },
+      {
+        "codigo": "41",
+        "nome": "DESCONTOS"
+      },
+      {
+        "codigo": "42",
+        "nome": "CORTESIA"
+      },
+      {
+        "codigo": "43",
+        "nome": "PESSOA FISICA"
+      }
+    ]
+  }

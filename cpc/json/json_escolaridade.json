@@ -1,0 +1,20 @@
+{
+  "lista": [
+    {
+      "codigo": "Analfabeto",
+        "nome": "Analfabeto"
+      },
+      {
+        "codigo": "1 Grau Completo",
+        "nome": "1 Grau Completo"
+      },
+      {
+        "codigo": "2 Grau Completo",
+        "nome": "2 Grau Completo"
+      },
+      {
+        "codigo": "3 Grau Completo",
+        "nome": "3 Grau Completo"
+      }
+    ]
+  }

@@ -1,0 +1,304 @@
+{
+	// Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+    
+
+	/*
+	1 Descrica do campo
+	2 nome do campo minusculo
+	3 nome da tabela
+	4 nom do campo maiusculo
+	*/
+
+	"Campo texto": {
+		"prefix": "cpcftexto",
+		"body": [
+		  "<div class=\"col-md-4\">",
+		  "    <label class=\"form-label\">${1:Descricao}</label>",
+		  "    <input type=\"text\" class=\"form-control\" name=\"${2:campo}\" id=\"${2:campo}\" value=\"<? echo \\$row${3:tabela}['${4:CAMPO}'] ?? '' ?>\" maxlength=\"$5\"  readonly>",
+		  "</div>",
+		  ""
+		],
+		"description": "Campo texto"
+	  },
+	  "Campo checkbox": {
+		"prefix": "cpcfcheckbox",
+		"body": [
+		  "<div class=\"col-md-2  col-3\">",
+		  "    <div class=\"input-group-text d-flex justify-content-evenly\">",
+		  "        <div class=\"input-group-prepend\">",
+		  "            <input type=\"checkbox\" class=\"form-check-input\" name=\"${1:campo}\" id=\"${1:campo}\" checado=\"${2:checado}\" nchecado=\"${3:Nchecado}\" default=\"${4:default}\" <? if ((\\$row${5:tabela}['${6:CAMPO}'] ?? '') === \"${2:checado}\") echo 'checked' ?> disabled>",
+		  "            <label class=\"form-check-label\" for=\"${1:campo}\">${7:descricao}</label>",
+		  "        </div>",
+		  "    </div>",
+		  "</div> ",
+		  ""
+		],
+		"description": "Campo checkbox"
+	  },
+	  "Campo checkbox grupo": {
+		"prefix": "cpcfcheckgrupo",
+		"body": [
+		  "<div class=\"input-group-text d-flex justify-content-evenly\">",
+		  "    <div class=\"input-group-prepend\">",
+		  "        <input type=\"checkbox\" class=\"form-check-input\" name=\"${1:campo}\" id=\"${1:campo}\" checado=\"${2:checado}\" nchecado=\"${3:Nchecado}\" default=\"${4:default}\" <? if ((\\$row${5:tabela}['${6:CAMPO}'] ?? '') === \"${2:checado}\") echo 'checked' ?> disabled>",
+		  "        <label class=\"form-check-label\" for=\"${1:campo}\">${7:descricao}</label>",
+		  "    </div>",
+		  "</div>",
+		  ""
+		],
+		"description": "Campo checkbox grupo"
+	  },	  
+	  "Campo CPF": {
+		"prefix": "cpcfcpf",
+		"body": [
+		  "<div class=\"col-md-4\">",
+		  "    <label class=\"form-label\">${1:CPF}</label>",
+		  "    <input type=\"text\" class=\"form-control cpf\" name=\"${2:campo}\" id=\"${2:campo}\" value=\"<? echo \\$row${3:tabela}['${4:CAMPO}'] ?? '' ?>\" maxlength=\"11\" onblur=\"validarCPF(\\$(this));\" readonly>",
+		  "</div>",
+		  ""
+		],
+		"description": "Campo CPF"
+	  },
+	  "Campo CNPJ": {
+		"prefix": "cpcfcnpj",
+		"body": [
+		  "<div class=\"col-md-4\">",
+		  "    <label class=\"form-label\">${1:CNPJ}</label>",
+		  "    <input type=\"text\" class=\"form-control cnpj\" name=\"${2:campo}\" id=\"${2:campo}\" value=\"<? echo \\$row${3:tabela}['${4:CAMPO}'] ?? '' ?>\" maxlength=\"14\" onblur=\"validarCNPJ(\\$(this));\" readonly>",
+		  "</div>",
+		  ""
+		],
+		"description": "Campo CPF"
+	  },
+	  "Campo Email": {
+		"prefix": "cpcfemail",
+		"body": [
+		  "<div class=\"col-md-4\">",
+		  "    <label class=\"form-label\">${1:Descricao}</label>",
+		  "    <input type=\"email\" class=\"form-control\" name=\"${2:campo}\" id=\"${2:campo}\" value=\"<? echo \\$row${3:tabela}['${4:CAMPO}'] ?? '' ?>\" maxlength=\"$5\" readonly>",
+		  "</div>",
+		  ""
+		],
+		"description": "Campo E-mail"
+	  },
+	  "Campo select": {
+		"prefix": "cpcfselect",
+		"body": [
+		  "<div class=\"col-md-4\">",
+		  "    <label class=\"form-label\">${1:Descricao}</label>",
+		  "    <select class=\"form-select\" name=\"${2:campo}\" id=\"${2:campo}\" value=\"<? echo \\$row${3:tabela}['${4:CAMPO}'] ?? ''; ?>\" disabled>",
+		  "    <option></option>",
+		  "    <? \\$_SESSION['listagem'] = '${5:tipolista}'; include __DIR__.\"\\..\\listagem.php\" ?>",
+		  "    </select>",
+		  "</div>",
+		  ""
+		],
+		"description": "Campo select"
+	  },
+	  "Campo Sim Nao": {
+		"prefix": "cpcfsimnao",
+		"body": [
+		  "<div class=\"col-md-2\">",
+		  "    <label class=\"form-label\">${1:Descricao}</label>",
+		  "    <select class=\"form-select\"name=\"${2:campo}\" id=\"${2:campo}\" value=\"<? echo \\$row${3:tabela}['${4:CAMPO}'] ?? ''?>\" disabled>",
+		  "        <option value=\"\"></option>",
+		  "        <option value=\"S\">S</option>",
+		  "        <option value=\"N\">N</option>",
+		  "    </select>",
+		  "</div>",
+		  ""
+		],
+		"description": "Campo Sim Nao"
+	  },
+	  "Campo Data": {
+		"prefix": "cpcfdata",
+		"body": [
+		  "<div class=\"col-md-4\">",
+		  "    <label class=\"form-label\">${1:Descricao}</label>",
+		  "    <input type=\"date\" class=\"form-control\" name=\"${2:campo}\" id=\"${2:campo}\" value=\"<?= \\$row${3:tabela}['${4:CAMPO}'] ? date('Y-m-d', strtotime(\\$row${3:tabela}['${4:CAMPO}'])) : '' ?>\" readonly>",
+		  "</div>",
+		  ""
+		],
+		"description": "Campo Data"
+	  },
+	  "Campo Memo": {
+		"prefix": "cpcfmemo",
+		"body": [
+		  "<div class=\"col-md-12\">",
+		  "    <label class=\"form-label\">${1:Descricao}</label>",
+		  "    <textarea class=\"form-control\" rows=\"$2\" name=\"${3:campo}\" id=\"${3:campo}\"  readonly><? echo \\$row${4:tabela}['${5:CAMPO}'] ?? ''; ?></textarea>",
+		  "</div>",
+		  ""
+		],
+		"description": "Campo Memo"
+	  },	  
+	  "Campo Inteiro": {
+		"prefix": "cpcfinteiro",
+		"body": [
+		  "<div class=\"col-md-2\">",
+		  "    <label class=\"form-label\">${1:Descricao}</label>",
+		  "    <input type=\"number\" class=\"form-control\" name=\"${2:campo}\" id=\"${2:campo}\" value=\"<? echo number_format(\\$row${3:tabela}['${4:CAMPO}'],0,'','') ?? ''; ?>\" style=\"text-align:right;\"  readonly>",
+		  "</div>",
+		  ""
+		],
+		"description": "Campo Inteiro"
+	  },
+	  "Campo Moeda": {
+		"prefix": "cpcfmoeda",
+		"body": [
+		  "<div class=\"col-md-4\">",
+		  "    <label class=\"form-label\">${1:Descricao}</label>",
+		  "    <input type=\"number\" class=\"form-control moeda\" name=\"${2:campo}\" id=\"${2:campo}\" value=\"<? echo number_format(\\$row${3:tabela}['${4:CAMPO}'],2,'.','') ?? ''; ?>\" style=\"text-align:right;\"  readonly>",
+		  "</div>",
+		  ""
+		],
+		"description": "Campo Moeda"
+	  },
+	  "Campo CEP": {
+		"prefix": "cpcfcep",
+		"body": [
+		  "<div class=\"col-md-2\">",
+		  "    <label class=\"form-label\">CEP</label>",
+		  "    <input type=\"text\" class=\"form-control\" name=\"${1:campo}\" uf=\"uf\" cidade=\"cidade\" bairro=\"bairro\" logradouro=\"endereco\" id=\"${1:campo}\" value=\"<? echo \\$row${2:tabela}['${3:CAMPO}'] ?? '' ?>\" maxlength=\"8\" onblur=\"cepBusca($(this))\" readonly>",
+		  "</div>",
+		  ""
+		],
+		"description": "Campo Moeda"
+	  },
+	  "Aba": {
+		"prefix": "cpccaba",
+		"body": [
+		  "<div class=\"row g-1 cpc-abas ${1:aba-cad} aba-${2:nomeaba}\" style=\"display:none\">",
+		  "    <div class=\"linha-com-nome\">",
+		  "        <hr><span class=\"nome-no-meio\">${3:DescricaoAba}</span>",
+		  "    </div>",
+		  "    $4",
+		  "</div>",
+		  ""
+		],
+		"description": "Aba"
+	  },
+	  "Grupo de campos": {
+		"prefix": "cpccgrupo",
+		"body": [
+		  "<div class=\"col-md-6\">",
+		  "    <div class=\"input-group\">",
+		  "      <span class=\"input-group-text\" id=\"\">${1:Descricao}</span>",
+		  "      $2",
+		  "    </div>",
+		  "</div>"
+		],
+		"description": "Grupo de campos"
+	  },
+	  "Tela Cadastro": {
+		"prefix": "cpcctelacadastro",
+		"body": [
+		  "<?",
+		  "    include __DIR__.\"/../headermain.php\";",
+		  "    include __DIR__.\"/../sgbd/${1:sgbd}.php\";",
+		  "    \\$_SESSION['ACESSO'] = '${2:Acesso}';",
+		  "    include __DIR__.\"/../sgbd/acesso.php\";",
+		  "",
+		  "    if (!isset(\\$_GET['indice'])) \\$_GET['indice'] = '';",
+		  "     \\$sql = \"select * from ${3:tabela} where ${4:pk} =0\".\\$_GET['indice'];",
+		  "     foreach (\\$fatura->query(\\$sql) as \\$row${3:tabela}) {}",
+		  "     if (isset(\\$row${3:tabela}['${5:PK}'])) \\$row${3:tabela}['${5:PK}'] = number_format((\\$row${3:tabela}['${5:PK}'] ?? '0'),0,'','');",
+		  "?>",
+		  "<div class=\"card container my-2\" id=\"cpc-topo\">",
+		  "    <div class=\"row card-head h3 text-center mt-1\">",
+		  "        <div class=\"col-12 d-flex justify-content-evenly\">",
+		  "            <div class=\"input-group text-center\">",
+		  "                <span class=\"input-group-text cpcnoprint\" id=\"basic-addon1\" onclick=\"alert(\\$('#etste').offset().top)\" tabindex=\"-1\"><i class=\"<? echo \\$_SESSION['ACESSOICONE']; ?> me-2\"></i><? echo \\$_SESSION['ACESSONOME']; ?></span>",
+		  "                <select class=\"form-select form-select-sm cpcnoupdate\" id=\"abaitem\" value=\"aba-dados\" onchange=\"if (\\$(this).val() === 'documentos') { \\$('.cpc-abas').hide(); \\$('#cpc-anexo').show(); showMain('${3:tabela}<?php echo \\$row${3:tabela}['${5:PK}'] ?? '' ?>', 'cpc-anexo', 'geral/bancoimagem.php?tipo='); } else if (\\$(this).val() === 'listagem') { \\$('.cpc-abas').hide(); \\$('#header-fixo').hide(); \\$('#cpc-listagem').show(); showMain('<?php echo \\$_SESSION['ACESSO']; ?>', 'cpc-listagem', 'geral/lista.php?tipo='); } else if (\\$(this).val() === 'todos') { \\$('.cpc-abas').hide();  \\$('.aba-cad').show(); } else { \\$('.cpc-abas').hide();\\$('#header-fixo').show();\\$('.' + \\$(this).val()).show(); }\">",
+		  "                    <option value=\"aba-dados\" selected>Dados</option>",
+		  "                    <option value=\"aba-outro\">Outro</option>",
+		  "                    <option value=\"todos\">Todos</option>",
+		  "                    <? if ((\\$row${3:tabela}['${5:PK}'] ?? '') != '') { ?>",
+		  "                    <option disabled><hr></option>",
+		  "                    <option value=\"documentos\">Docs Digitais</option>",
+		  "                    <? }  ?>",
+		  "                    <option value=\"listagem\">Listagem</option>",
+		  "                </select>",
+		  "            </div>",
+		  "            ",
+		  "        </div>",
+		  "    </div>",
+		  "    <div class=\"col-md-12 d-flex justify-content-evenly cpcnoprint mb-2\">",
+		  "        <? if (\\$rowacesso['DML_I'] === 'S') { ?>",
+		  "        <button type=\"button\" id=\"incluir\" onclick=\"insertform(\\$('#form${3:tabela}'),'${6:segundocampo}');\" class=\"btn btn-outline-primary btn-sm cpcnoprint\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\">",
+		  "            <i class=\"fa fa-plus\"></i> Incluir",
+		  "        </button>",
+		  "        <? } if (\\$rowacesso['DML_U'] === 'S') { ?>",
+		  "        <button onclick=\"editform(\\$('#form${3:tabela}'),'${6:segundocampo}');\" id=\"editar\" class=\"btn btn-outline-secondary btn-sm cpcnoprint\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" <? if ((\\$row${3:tabela}['${5:PK}'] ?? '') == '') echo 'disabled'?>>",
+		  "            <i class=\"fa fa-pencil\"></i> Editar",
+		  "        </button>",
+		  "        <? } if ((\\$rowacesso['DML_U'] === 'S') || (\\$rowacesso['DML_I'] === 'S')) { ?>",
+		  "        <button onclick=\"dmlitem(\\$('#form${3:tabela}'),'${6:pasta}/dml','','${6:pasta}/${3:tabela}');\" id=\"salvar\" class=\"btn btn-outline-success btn-sm cpcnoprint\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" disabled>",
+		  "            <i class=\"fa fa-check\"></i> Salvar",
+		  "        </button>",
+		  "        <? } if (\\$rowacesso['DML_D'] === 'S') { ?>",
+		  "        <button onclick=\"deleteitem('fatura', '${3:tabela}', '${4:pk}', \\$('#${4:pk}').val(),'','incluir');\" id=\"deletar\" class=\"btn btn-outline-danger btn-sm cpcnoprint\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" <? if ((\\$row${3:tabela}['${5:PK}'] ?? '') == '') echo 'disabled'?>>",
+		  "            <i class=\"fa fa-trash\"></i> Deletar",
+		  "        </button>",
+		  "        <?} ?>",
+		  "        <a href=\"#popupNested\" class=\"btn btn-outline-warning  btn-sm cpcnoprint\" style=\"color: #ffffff\" onmouseup=\"showMain('tela_add','listapopup','./listapopup_get.php?indice=');\" data-rel=\"popup\" data-transition=\"pop\" aria-haspopup=\"true\" aria-owns=\"popupNested\" aria-expanded=\"true\"  data-bs-toggle=\"tooltip\" data-bs-placement=\"top\">",
+		  "            ...",
+		  "        </a>",
+		  "    </div>",
+		  "</div>",
+		  "",
+		  "<div class=\"card container\" style=\"overflow-y: auto;\" id=\"cpc-autoheight\">",
+		  "    <form name=\"form${3:tabela}\" id=\"form${3:tabela}\" action=\"${6:pasta}/dml.php\" class=\"row g-1\" enctype=\"multipart/form-data\" method=\"post\">",
+		  "        <input type=\"hidden\" id=\"tipodml\" name=\"tipodml\" value=\"${3:tabela}\">",
+		  "        <div class=\"row g-1\" id=\"header-fixo\">",
+		  "            <div class=\"col-md-2\">",
+		  "                <label class=\"form-label\" <?php if (\\$_SESSION['config']['dev'] == 'S') echo 'onclick=\"listarNomesCampos(\\'form${3:tabela}\\')\"'; ?>>Cód</label>",
+		  "                <div class=\"input-group\">",
+		  "                <input type=\"text\" class=\"form-control pk text-end\" name=\"${4:pk}\" id=\"${4:pk}\" value=\"<? if (isset(\\$row${3:tabela}['${5:PK}'])) echo number_format((\\$row${3:tabela}['${5:PK}'] ?? '0'),0,'',''); ?>\" onchange=\"\" readonly>",
+		  "                <span class=\"input-group-text cpcnoprint\" id=\"basic-addon1\"><a href=\"\" onclick=\"inputbox('Código','inputnumber','${6:pasta}/${3:tabela}','cpcMain')\" tabindex=\"-1\"><i class=\"fa fa-search\"></i></a></span>",
+		  "                </div>",
+		  "            </div>",
+		  "            <div class=\"col-md-4\">",
+		  "                <label class=\"form-label\">Nome</label>",
+		  "                <div class=\"input-group\">",
+		  "                    <input type=\"text\" class=\"form-control\" name=\"${6:segundocampo}\" id=\"${6:segundocampo}\" value=\"<? echo \\$row${3:tabela}['${7:SEGUNDOCAMPO}'] ?? '' ?>\" maxlength=50 oninput=\"\\$(this).val(\\$(this).val().toUpperCase())\" onchange=\"if (\\$('#segurado').val() === '') \\$('#segurado').val(\\$(this).val()) \" required  >",
+		  "                    <span class=\"input-group-text cpcnoprint\" id=\"basic-addon1\" ><a href=\"\" onclick=\"inputbox('Paciente','input_${3:tabela}','${6:pasta}/${3:tabela}','cpcMain')\" tabindex=\"-1\"><i class=\"fa fa-search\"></i></a></span>",
+		  "                </div>",
+		  "            </div>",
+		  "        </div>",
+		  "        <div class=\"row g-1 cpc-abas aba-cad aba-dados\">",
+		  "            <div class=\"linha-com-nome\">",
+		  "                <hr>",
+		  "                <span class=\"nome-no-meio\">Dados</span>",
+		  "            </div>",
+		  "        </div>",
+		  "",
+		  "        <div class=\"row g-1 cpc-abas\" id=\"cpc-anexo\" style=\"display:none\">",
+		  "        </div>",
+		  "        <div class=\"row g-1 cpc-abas\" id=\"cpc-listagem\" style=\"display:none\">",
+		  "        </div>",
+		  "    </form>",
+		  "</div>"
+		],
+		"description": "Tela Cadastro"
+	  },
+	  "Maiusculo": {
+		"prefix": "cpcpmaiusculo",
+		"body": [
+		  "oninput=\"$(this).val(\\$(this).val().toUpperCase())\""
+		],
+		"description": "Maiusculo"
+	  }	  
+}	

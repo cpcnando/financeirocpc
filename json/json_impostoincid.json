@@ -1,0 +1,16 @@
+{
+  "lista": [
+    {
+      "codigo": "Bruto",
+        "nome": "Bruto"
+      },
+      {
+        "codigo": "INSS",
+        "nome": "INSS"
+      },
+      {
+        "codigo": "IRRF",
+        "nome": "IRRF"
+      }
+      ]
+  }

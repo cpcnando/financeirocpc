@@ -1,0 +1,36 @@
+{
+    "app" : "https://www.cpcbrasil.com/app/",
+    "versao" : "1.0.6.16",
+    "dev" : "S",
+    "fatura":{
+        "sgbd" : "firebird:dbname=192.168.43.150:C:\\cpc\\FATURA4.FDB;charset=ISO8859_1",
+        "usuario" : "sysdba",
+        "senha" : "ajuda"
+    },
+    "almoxa":{
+        "sgbd" : "firebird:dbname=192.168.43.150:C:\\cpc\\ALMOXA4.FDB;charset=ISO8859_1",
+        "usuario" : "sysdba",
+        "senha" : "ajuda"
+    },
+    "financeiro":{
+        "sgbd" : "firebird:dbname=192.168.43.150:C:\\cpc\\FINANCEIRO4.FDB;charset=ISO8859_1",
+        "usuario" : "sysdba",
+        "senha" : "ajuda"
+    },
+    "suporte":{
+        "sgbd" : "firebird:dbname=192.168.43.150:suporte;charset=ISO8859_1",
+        "usuario" : "sysdba",
+        "senha" : "ajuda"
+    },
+    "pacs":{
+        "sgbd" : "firebird:dbname=192.168.43.150/3030:C:\\cpc\\PACSDB.FDB;charset=ISO8859_1",
+        "usuario" : "sysdba",
+        "senha" : "ajuda",        
+        "ip" : "192.168.43.154"
+    },
+    "imagens":{
+        "sgbd" : "firebird:dbname=192.168.43.150:imagens;charset=ISO8859_1",
+        "usuario" : "sysdba",
+        "senha" : "ajuda"
+    }    
+}

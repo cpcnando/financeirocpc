@@ -1,0 +1,112 @@
+{
+  "lista": [
+    {
+      "codigo": "AC",
+      "nome": "Acre"
+    },
+    {
+      "codigo": "AL",
+      "nome": "Alagoas"
+    },
+    {
+      "codigo": "AM",
+      "nome": "Amazonas"
+    },
+    {
+      "codigo": "AP",
+      "nome": "Amapá"
+    },
+    {
+      "codigo": "BA",
+      "nome": "Bahia"
+    },
+    {
+      "codigo": "CE",
+      "nome": "Ceará"
+    },
+    {
+      "codigo": "DF",
+      "nome": "Distrito Federal"
+    },
+    {
+      "codigo": "ES",
+      "nome": "Espírito Santo"
+    },
+    {
+      "codigo": "GO",
+      "nome": "Goiás"
+    },
+    {
+      "codigo": "MA",
+      "nome": "Maranhão"
+    },
+    {
+      "codigo": "MG",
+      "nome": "Minas Gerais"
+    },
+    {
+      "codigo": "MS",
+      "nome": "Mato Grosso do Sul"
+    },
+    {
+      "codigo": "MT",
+      "nome": "Mato Grosso"
+    },
+    {
+      "codigo": "PA",
+      "nome": "Pará"
+    },
+    {
+      "codigo": "PB",
+      "nome": "Paraíba"
+    },
+    {
+      "codigo": "PE",
+      "nome": "Pernambuco"
+    },
+    {
+      "codigo": "PI",
+      "nome": "Piauí"
+    },
+    {
+      "codigo": "PR",
+      "nome": "Paraná"
+    },
+    {
+      "codigo": "RJ",
+      "nome": "Rio de Janeiro"
+    },
+    {
+      "codigo": "RN",
+      "nome": "Rio Grande do Norte"
+    },
+    {
+      "codigo": "RO",
+      "nome": "Rondônia"
+    },
+    {
+      "codigo": "RR",
+      "nome": "Roraima"
+    },
+    {
+      "codigo": "RS",
+      "nome": "Rio Grande do Sul"
+    },
+    {
+      "codigo": "SC",
+      "nome": "Santa Catarina"
+    },
+    {
+      "codigo": "SE",
+      "nome": "Sergipe"
+    },
+    {
+      "codigo": "SP",
+      "nome": "São Paulo"
+    },
+    {
+      "codigo": "TO",
+      "nome": "Tocantins"
+    }
+  ]
+}

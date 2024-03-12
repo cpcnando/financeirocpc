@@ -1,0 +1,64 @@
+{
+  "lista": [
+    {
+      "codigo": "010",
+        "nome": "BRASIL"
+      },
+      {
+        "codigo": "020",
+        "nome": "RESERVADO"
+      },
+      {
+        "codigo": "021",
+        "nome": "ARGENTINA"
+      },
+      {
+        "codigo": "022",
+        "nome": "BOLIVIA"
+      },
+      {
+        "codigo": "023",
+        "nome": "CHILE"
+      },
+      {
+        "codigo": "024",
+        "nome": "PARAGUAI"
+      },
+      {
+        "codigo": "025",
+        "nome": "URUGUAI"
+      },
+      {
+        "codigo": "026",
+        "nome": "COLOMBIA"
+      },
+      {
+        "codigo": "027",
+        "nome": "EQUADOR"
+      },
+      {
+        "codigo": "028",
+        "nome": "ANTIGUA E. DEP. BARBUDA"
+      },
+      {
+        "codigo": "029",
+        "nome": "ANTILHAS HOLANDESAS"
+      },
+      {
+        "codigo": "030",
+        "nome": "ALEMANHA"
+      },
+      {
+        "codigo": "031",
+        "nome": "BELGICA"
+      },
+      {
+        "codigo": "032",
+        "nome": "GRA BRETANHA"
+      },
+      {
+        "codigo": "033",
+        "nome": "ARUBA"
+      }
+    ]
+  }

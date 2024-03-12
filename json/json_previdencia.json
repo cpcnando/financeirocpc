@@ -1,0 +1,28 @@
+{
+  "lista": [
+    {
+      "codigo": "1 - Autonomo",
+        "nome": "1 - Autonomo"
+      },
+      {
+        "codigo": "2 - Desempregado",
+        "nome": "2 - Desempregado"
+      },
+      {
+        "codigo": "3 - Aposentado",
+        "nome": "3 - Aposentado"
+      },
+      {
+        "codigo": "4 - Nao Segurado",
+        "nome": "4 - Nao Segurado"
+      },
+      {
+        "codigo": "5 - Empregado",
+        "nome": "5 - Empregado"
+      },
+      {
+        "codigo": "6 - Empregador",
+        "nome": "6 - Empregador"
+      }
+    ]
+  }

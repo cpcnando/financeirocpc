@@ -1,0 +1,32 @@
+{
+  "lista": [
+    {
+      "codigo": "Segunda",
+        "nome": "Segunda"
+      },
+      {
+        "codigo": "Terça",
+        "nome": "Terça"
+      },
+      {
+        "codigo": "Quarta",
+        "nome": "Quarta"
+      },
+      {
+        "codigo": "Quinta",
+        "nome": "Quinta"
+      },
+      {
+      "codigo": "Sexta",
+        "nome": "Sexta"
+      },
+      {
+        "codigo": "Sábado",
+        "nome": "Sábado"
+      },
+      {
+        "codigo": "Domingo",
+        "nome": "Domingo"
+      }
+      ]
+  }

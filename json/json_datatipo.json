@@ -1,0 +1,12 @@
+{
+  "lista": [
+    {
+      "codigo": "Vencimento",
+        "nome": "Vencimento"
+      },
+      {
+        "codigo": "Emissão",
+        "nome": "Emissão"
+      }
+      ]
+  }

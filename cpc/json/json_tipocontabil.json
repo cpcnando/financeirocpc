@@ -1,0 +1,36 @@
+{
+  "lista": [
+    {
+      "codigo": "Fatura",
+        "nome": "Fatura"
+      },
+      {
+        "codigo": "Recurso",
+        "nome": "Recurso"
+      },
+      {
+        "codigo": "CPS",
+        "nome": "CPS"
+      },
+      {
+        "codigo": "Entrada",
+        "nome": "Entrada"
+      },
+      {
+        "codigo": "Consumo",
+        "nome": "Consumo"
+      },
+      {
+        "codigo": "Pagamento",
+        "nome": "Pagamento"
+      },
+      {
+        "codigo": "Folha",
+        "nome": "Folha"
+      },
+      {
+        "codigo": "Patrimonio",
+        "nome": "Patrimonio"
+      }
+    ]
+  }

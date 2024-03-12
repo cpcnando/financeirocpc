@@ -1,0 +1,20 @@
+{
+  "lista": [
+    {
+      "codigo": "Receita",
+        "nome": "Receita"
+      },
+      {
+        "codigo": "Despesa",
+        "nome": "Despesa"
+      },
+      {
+        "codigo": "Investimento",
+        "nome": "Investimento"
+      },
+      {
+        "codigo": "Nulo",
+        "nome": "Nulo"
+      }
+    ]
+  }

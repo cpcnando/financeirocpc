@@ -1,0 +1,46 @@
+{
+    "app" : "https://www.cpcbrasil.com/app/",
+    "versao" : "1.0.6.16",
+    "dev" : "S",
+    "fatura":{
+        "sgbd" : "firebird:dbname=192.168.1.40:fatura;charset=ISO8859_1",
+        "usuario" : "sysdba",
+        "senha" : "ajuda"
+    },
+    "almoxa":{
+        "sgbd" : "firebird:dbname=192.168.1.40:almoxa;charset=ISO8859_1",
+        "usuario" : "sysdba",
+        "senha" : "ajuda"
+    },
+    "financeiro":{
+        "sgbd" : "firebird:dbname=192.168.1.40:financeiro;charset=ISO8859_1",
+        "usuario" : "sysdba",
+        "senha" : "ajuda"
+    },
+    "folha":{
+        "sgbd" : "firebird:dbname=192.168.1.40:financeiro;charset=ISO8859_1",
+        "usuario" : "sysdba",
+        "senha" : "ajuda"
+    },
+    "contabil":{
+        "sgbd" : "firebird:dbname=192.168.1.40:contabil;charset=ISO8859_1",
+        "usuario" : "sysdba",
+        "senha" : "ajuda"
+    },
+    "suporte":{
+        "sgbd" : "firebird:dbname=192.168.1.40:financiero;charset=ISO8859_1",
+        "usuario" : "sysdba",
+        "senha" : "ajuda"
+    },
+    "pacs":{
+        "sgbd" : "firebird:dbname=192.168.1.40:pacsdb;charset=ISO8859_1",
+        "usuario" : "sysdba",
+        "senha" : "ajuda",        
+        "ip" : "192.168.1.40"
+    },
+    "imagens":{
+        "sgbd" : "firebird:dbname=192.168.1.40:imagens;charset=ISO8859_1",
+        "usuario" : "sysdba",
+        "senha" : "ajuda"
+    }    
+}

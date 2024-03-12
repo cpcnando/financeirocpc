@@ -1,0 +1,808 @@
+"
+      },
+      {
+        "codigo": "010",
+        "NOME": "BRASIL"
+      },
+      {
+        "codigo": "020",
+        "NOME": "RESERVADO"
+      },
+      {
+        "codigo": "021",
+        "NOME": "ARGENTINA"
+      },
+      {
+        "codigo": "022",
+        "NOME": "BOLIVIA"
+      },
+      {
+        "codigo": "023",
+        "NOME": "CHILE"
+      },
+      {
+        "codigo": "024",
+        "NOME": "PARAGUAI"
+      },
+      {
+        "codigo": "025",
+        "NOME": "URUGUAI"
+      },
+      {
+        "codigo": "026",
+        "NOME": "COLOMBIA"
+      },
+      {
+        "codigo": "027",
+        "NOME": "EQUADOR"
+      },
+      {
+        "codigo": "028",
+        "NOME": "ANTIGUA E. DEP. BARBUDA"
+      },
+      {
+        "codigo": "029",
+        "NOME": "ANTILHAS HOLANDESAS"
+      },
+      {
+        "codigo": "030",
+        "NOME": "ALEMANHA"
+      },
+      {
+        "codigo": "031",
+        "NOME": "BELGICA 
+032",
+        "NOME": "GRA",
+        "NOME": "BRETANHA
+033",
+        "NOME": "ARUBA 
+034",
+        "NOME": "CANADA
+035",
+        "NOME": "ESPANHA 
+036",
+        "NOME": "ESTADOS UNIDOS DA AMERICA (EUA) 
+037",
+        "NOME": "FRANCA
+038",
+        "NOME": "SUICA 
+039",
+        "NOME": "ITALIA
+040",
+        "NOME": "COMUNIDADE DAS BAHAMAS
+041",
+        "NOME": "JAPAO 
+042",
+        "NOME": "CHINA 
+043",
+        "NOME": "COREIA
+044",
+        "NOME": "BARBADOS
+045",
+        "NOME": "PORTUGAL
+046",
+        "NOME": "BELIZE
+047",
+        "NOME": "ILHAS TURKS E CAICOS
+048",
+        "NOME": "RESERVADO 
+049",
+        "NOME": "RESERVADO 
+050",
+        "NOME": "RESERVADO 
+051",
+        "NOME": "COSTA RICA
+052",
+        "NOME": "CUBA
+053",
+        "NOME": "CURACAO 
+054",
+        "NOME": "COMUNIDADE DOMINICANA 
+055",
+        "NOME": "REPUBLICA DOMINICANA
+056",
+        "NOME": "REPUBLICA DE EL SALVADOR
+057",
+        "NOME": "ESTADOS ASSOC. DAS ANTILHAS 
+058",
+        "NOME": "ILHAS FALKLANDS 
+059",
+        "NOME": "GRANADA 
+060",
+        "NOME": "ILHAS GUADALUPE 
+061",
+        "NOME": "GUATEMALA 
+062",
+        "NOME": "REPUBLICA DO HAITI
+063",
+        "NOME": "HONDURAS BRITANICAS 
+064",
+        "NOME": "HONDURAS
+065",
+        "NOME": "ILHAS SERRANAS
+066",
+        "NOME": "JAMAICA 
+067",
+        "NOME": "ILHAS MALVINAS
+068",
+        "NOME": "MARTINICA 
+069",
+        "NOME": "ILHA MILHOS 
+070",
+        "NOME": "MONTE SERRAT
+071",
+        "NOME": "NICARAGUA 
+072",
+        "NOME": "PANAMA
+073",
+        "NOME": "PANAMA(ZONA DO CANAL) 
+074",
+        "NOME": "PORTO RICO
+075",
+        "NOME": "QUITASUENO
+076",
+        "NOME": "RONCADOR
+077",
+        "NOME": "SANTA LUCIA 
+078",
+        "NOME": "SAO CRISTOVAO 
+079",
+        "NOME": "SAO VICENTE 
+080",
+        "NOME": "ILHAS TURCA 
+081",
+        "NOME": "ILHAS VIRGENS BRITANICAS
+082",
+        "NOME": "ILHAS VIRGENS AMERICANAS
+083",
+        "NOME": "BERMUDAS
+084",
+        "NOME": "GROENLANDIA 
+085",
+        "NOME": "MEXICO
+086",
+        "NOME": "ST. PIERRE ET MIQUELON
+087",
+        "NOME": "GUIANA FRANCESA 
+088",
+        "NOME": "REPUBLICA GUIANA
+089",
+        "NOME": "PERU
+090",
+        "NOME": "SURINAME
+091",
+        "NOME": "TRINIDAD E TOBAGO 
+092",
+        "NOME": "VENEZUELA 
+093",
+        "NOME": "ALBANIA 
+094",
+        "NOME": "ANDORRA 
+095",
+        "NOME": "AUSTRIA 
+096",
+        "NOME": "BULGARIA
+097",
+        "NOME": "CHIPRE
+098",
+        "NOME": "DINAMARCA 
+099",
+        "NOME": "EIRE
+100",
+        "NOME": "ESCOCIA 
+101",
+        "NOME": "ILHAS FAROES
+102",
+        "NOME": "FINLANDIA 
+103",
+        "NOME": "GIBRALTAR 
+104",
+        "NOME": "GRECIA
+105",
+        "NOME": "HOLANDA 
+106",
+        "NOME": "HUNGRIA 
+107",
+        "NOME": "ILHAS BALEARES
+108",
+        "NOME": "ILHAS COSMOLEDO (LOMORES) 
+109",
+        "NOME": "ILHAS DO CANAL
+110",
+        "NOME": "INGLATERRA
+111",
+        "NOME": "IRLANDA DO NORTE
+112",
+        "NOME": "IRLANDA 
+113",
+        "NOME": "ISLANDIA
+114",
+        "NOME": "IUGOSLAVIA
+115",
+        "NOME": "LIECHTENSTEIN 
+116",
+        "NOME": "LUXEMBURGO
+117",
+        "NOME": "ILHAS DE MAN
+118",
+        "NOME": "MONACO
+119",
+        "NOME": "NORUEGA 
+120",
+        "NOME": "REPUBLICA DE MALTA
+121",
+        "NOME": "PAIS DE GALES 
+122",
+        "NOME": "PAISES BAIXOS 
+123",
+        "NOME": "POLONIA 
+124",
+        "NOME": "ROMENIA 
+125",
+        "NOME": "SAN MARINO
+126",
+        "NOME": "SUECIA
+127",
+        "NOME": "SVALBARD E JAN MAYER,IS 
+128",
+        "NOME": "TCHECOSLOVAQUIA 
+129",
+        "NOME": "ESTADO DA CIDADE DO VATICANO
+130",
+        "NOME": "CROACIA 
+131",
+        "NOME": "SERVIA
+132",
+        "NOME": "ESLOVENIA 
+133",
+        "NOME": "REPUBLICA DA MACEDONIA
+134",
+        "NOME": "BOSNIA HERZEGOVINA
+135",
+        "NOME": "REPUBLICA TCHECA
+136",
+        "NOME": "ESLOVAQUIA
+137",
+        "NOME": "MONTENEGRO
+138",
+        "NOME": "AZERBAIJAO
+139",
+        "NOME": "BASHKISTA 
+140",
+        "NOME": "REPUBLICA DA BIELORRUSSIA 
+141",
+        "NOME": "BURYAT
+142",
+        "NOME": "CARELIA 
+143",
+        "NOME": "CAZAQUISTAO 
+144",
+        "NOME": "CHECHEN INGUSTH 
+145",
+        "NOME": "CHUVASH 
+146",
+        "NOME": "DAGESTA 
+147",
+        "NOME": "ESTONIA 
+148",
+        "NOME": "GEORGIA 
+149",
+        "NOME": "GORNO ALTAI 
+150",
+        "NOME": "KABARDINO BALKAR
+151",
+        "NOME": "KALMIR
+152",
+        "NOME": "KARACHAEVOCHERKESS
+153",
+        "NOME": "KHAKASS 
+154",
+        "NOME": "KOMI
+155",
+        "NOME": "LETONIA 
+156",
+        "NOME": "LITUANIA
+157",
+        "NOME": "MARI
+158",
+        "NOME": "MOLDAVIA
+159",
+        "NOME": "OSSETIA SETENTRIONAL
+160",
+        "NOME": "QUIRGUISTAO 
+161",
+        "NOME": "TADJIQUISTAO
+162",
+        "NOME": "TARTARIA
+163",
+        "NOME": "TURCOMENISTAO 
+164",
+        "NOME": "TUVIN 
+165",
+        "NOME": "UCRANIA 
+166",
+        "NOME": "UDMURT
+167",
+        "NOME": "UNIAO SOVIETICA 
+168",
+        "NOME": "UZBEQUISTAO 
+169",
+        "NOME": "YAKUT 
+170",
+        "NOME": "ABISSINIA 
+171",
+        "NOME": "ACORES
+172",
+        "NOME": "AFAR FRANCES
+173",
+        "NOME": "REPUBLICA DA AFRICA DO SUL
+174",
+        "NOME": "ALTO VOLTA
+175",
+        "NOME": "ANGOLA
+176",
+        "NOME": "ARGELIA 
+177",
+        "NOME": "BECHUANALANDIA
+178",
+        "NOME": "BENIN 
+179",
+        "NOME": "BOTSUANA
+180",
+        "NOME": "BURUNDI 
+181",
+        "NOME": "CAMAROES
+182",
+        "NOME": "CEUTA E MELILLA 
+183",
+        "NOME": "CHADE 
+184",
+        "NOME": "ILHAS COMORES 
+185",
+        "NOME": "CONGO 
+186",
+        "NOME": "COSTA DO MARFIM 
+187",
+        "NOME": "DAOME 
+188",
+        "NOME": "DJIBUTI 
+189",
+        "NOME": "REPUBLICA ARABE DO EGITO
+190",
+        "NOME": "ETIOPIA 
+191",
+        "NOME": "REPUBLICA DO GABAO
+192",
+        "NOME": "GAMBIA
+193",
+        "NOME": "GANA
+194",
+        "NOME": "GAZA
+195",
+        "NOME": "GUINE 
+196",
+        "NOME": "GUINE EQUATORIAL
+197",
+        "NOME": "IFNI
+198",
+        "NOME": "ASCENSAO E TRISTAO DA CUNHA,IS
+199",
+        "NOME": "ILHAS CANARIAS
+200",
+        "NOME": "LESOTO
+201",
+        "NOME": "LIBERIA 
+202",
+        "NOME": "LIBIA 
+203",
+        "NOME": "MADEIRA 
+204",
+        "NOME": "MALAWI
+205",
+        "NOME": "MADAGASCAR
+206",
+        "NOME": "MALI
+207",
+        "NOME": "MARROCOS
+208",
+        "NOME": "MAURICIO
+209",
+        "NOME": "MAURITANIA
+210",
+        "NOME": "MOCAMBIQUE
+211",
+        "NOME": "NGUANE
+212",
+        "NOME": "REPUBLICA DO NIGER
+213",
+        "NOME": "NIGERIA 
+214",
+        "NOME": "PAPUA NOVA GUINE
+215",
+        "NOME": "PRACAS NORTE AFRICANAS
+216",
+        "NOME": "PROTETOR DO SUDOESTE AFRICANO 
+217",
+        "NOME": "QUENIA
+218",
+        "NOME": "REPUBLICA CENTRO AFRICANA 
+219",
+        "NOME": "REUNIAO 
+220",
+        "NOME": "RODESIA (ZIMBABWE)
+221",
+        "NOME": "RUANDA
+222",
+        "NOME": "SAARA ESPANHOL
+223",
+        "NOME": "SANTA HELENA
+224",
+        "NOME": "SAO TOME E PRINCIPE 
+225",
+        "NOME": "SEYCHELLES
+226",
+        "NOME": "SERRA LEOA
+227",
+        "NOME": "SOMALIA, REPUBLICA
+228",
+        "NOME": "SUAZILANDIA 
+229",
+        "NOME": "SUDAO 
+230",
+        "NOME": "TANGANICA 
+231",
+        "NOME": "TERRIT. BRITANICO DO OCEANO INDICO
+232",
+        "NOME": "TRANSKEI
+233",
+        "NOME": "TOGO
+234",
+        "NOME": "TUNISIA 
+235",
+        "NOME": "UGANDA
+236",
+        "NOME": "ZAIRE 
+237",
+        "NOME": "ZAMBIA
+238",
+        "NOME": "BURKINA FASSO 
+239",
+        "NOME": "ZIMBABWE
+240",
+        "NOME": "NAMIBIA 
+241",
+        "NOME": "AFEGANISTAO 
+242",
+        "NOME": "ARABIA SAUDITA
+243",
+        "NOME": "BAHREIN 
+244",
+        "NOME": "BIRMANIA
+245",
+        "NOME": "BRUNEI
+246",
+        "NOME": "BHUTAN
+247",
+        "NOME": "CATAR 
+248",
+        "NOME": "CEILAO
+249",
+        "NOME": "CHINA (TAIWAN)
+250",
+        "NOME": "COVEITE 
+251",
+        "NOME": "EMIRADOS ARABES UNIDOS
+252",
+        "NOME": "FILIPINAS 
+253",
+        "NOME": "HONG",
+        "NOME": "KONG 
+254",
+        "NOME": "IEMEN 
+255",
+        "NOME": "INDIA 
+256",
+        "NOME": "INDONESIA 
+257",
+        "NOME": "IRA 
+258",
+        "NOME": "IRAQUE
+259",
+        "NOME": "ISRAEL
+260",
+        "NOME": "JORDANIA
+261",
+        "NOME": "KMER/CAMBOJA
+262",
+        "NOME": "KUWAIT
+263",
+        "NOME": "LAOS
+264",
+        "NOME": "LIBANO
+265",
+        "NOME": "MACAU 
+266",
+        "NOME": "MALASIA 
+267",
+        "NOME": "MALDIVAS,IS 
+268",
+        "NOME": "MASCATE 
+269",
+        "NOME": "MONGOLIA
+270",
+        "NOME": "NEPAL 
+271",
+        "NOME": "OMAN
+272",
+        "NOME": "PALESTINA 
+273",
+        "NOME": "PAQUISTAO 
+274",
+        "NOME": "RUIQUIU,IS
+275",
+        "NOME": "CINGAPURA 
+276",
+        "NOME": "SEQUIN
+277",
+        "NOME": "SIRIA 
+278",
+        "NOME": "SRI",
+        "NOME": "LANKA 
+279",
+        "NOME": "TAILANDIA 
+280",
+        "NOME": "TREGUA, ESTADO
+281",
+        "NOME": "TURQUIA 
+282",
+        "NOME": "VIETNA DO NORTE 
+283",
+        "NOME": "VIETNA DO SUL 
+284",
+        "NOME": "MIANMA
+285",
+        "NOME": "ARQUIPELAGO MANAHIKI
+286",
+        "NOME": "ARQUIPELAGO MIDWAY
+287",
+        "NOME": "ASHMORE E CARTIER 
+288",
+        "NOME": "AUSTRALIA 
+289",
+        "NOME": "ARQUIPELAGO DE BISMARK
+290",
+        "NOME": "ILHAS COOK
+291",
+        "NOME": "REPUBLICA DE FIJI 
+292",
+        "NOME": "GUAM
+293",
+        "NOME": "ILHAS BAKER 
+294",
+        "NOME": "ILHAS CANTAO E ENDERBURG
+295",
+        "NOME": "ILHAS CAROLINAS 
+296",
+        "NOME": "ILHAS DO PACIFICO 
+297",
+        "NOME": "ILHAS CHRISTMAS 
+298",
+        "NOME": "ILHAS GILBERT 
+299",
+        "NOME": "ILHAS HOWLAND E JARVIS
+300",
+        "NOME": "ILHA JOHNSTON E SAND
+301",
+        "NOME": "ILHAS KINGMAN REEF
+302",
+        "NOME": "ILHAS MACQUAIRE 
+303",
+        "NOME": "ILHAS MARIANAS
+304",
+        "NOME": "ILHAS MARSHALL
+305",
+        "NOME": "ILHAS MACDONAL E HEARD
+306",
+        "NOME": "ILHAS NIUE
+307",
+        "NOME": "ILHAS NORFOLK 
+308",
+        "NOME": "ILHAS PALAU 
+309",
+        "NOME": "ILHAS SALOMAO 
+310",
+        "NOME": "ILHAS TOKELAU 
+311",
+        "NOME": "ILHAS WAKE
+312",
+        "NOME": "KALIMATAN 
+313",
+        "NOME": "ILHAS LINHA 
+314",
+        "NOME": "NAURU 
+315",
+        "NOME": "ILHAS NOVA CALEDONIA
+316",
+        "NOME": "NOVA GUINE
+317",
+        "NOME": "NOVA ZELANDIA 
+318",
+        "NOME": "ILHAS NOVAS HEBRIDAS
+319",
+        "NOME": "TERRITORIO DE PAPUA 
+320",
+        "NOME": "ILHAS PASCOA
+321",
+        "NOME": "ILHAS PITCAIRIN 
+322",
+        "NOME": "POLINESIA FRANCESA
+323",
+        "NOME": "SABAH 
+324",
+        "NOME": "SAMOA AMERICANA 
+325",
+        "NOME": "SAMOA OCIDENTAL 
+326",
+        "NOME": "ILHAS SANTA CRUZ
+327",
+        "NOME": "SARAWAK 
+328",
+        "NOME": "TERRITORIO DE COCOS 
+329",
+        "NOME": "TIMOR 
+330",
+        "NOME": "TONGA 
+331",
+        "NOME": "TUVALU
+332",
+        "NOME": "ILHAS WALLIS E FUTUNA 
+333",
+        "NOME": "ANTARTICO BRITANICO, TERRITORIO 
+334",
+        "NOME": "ANTARTICA FRANCESA
+335",
+        "NOME": "TERR. ANTARTICO DA AUSTRALIA
+336",
+        "NOME": "ANTARTICO CHILENO 
+337",
+        "NOME": "ANTARTICO ARGENTINO 
+338",
+        "NOME": "ANTARTICO NORUEGUES 
+339",
+        "NOME": "APATRIDA
+340",
+        "NOME": "DEPENDENCIA DE ROSS 
+341",
+        "NOME": "TERRAS AUSTRAIS 
+342",
+        "NOME": "BANGLADESH
+343",
+        "NOME": "CABO VERDE
+344",
+        "NOME": "GUINE BISSAU
+345",
+        "NOME": "IEMEN DO SUL
+346",
+        "NOME": "KARA KALPAK 
+347",
+        "NOME": "ARMENIA 
+348",
+        "NOME": "RUSSIA
+349",
+        "NOME": "SENEGAL 
+350",
+        "NOME": "TANZANIA
+
+
+{
+    "lista": [
+      {
+        "codigo": "AC",
+        "nome": "Acre"
+      },
+      {
+        "codigo": "AL",
+        "nome": "Alagoas"
+      },
+      {
+        "codigo": "AM",
+        "nome": "Amazonas"
+      },
+      {
+        "codigo": "AP",
+        "nome": "Amapa"
+      },
+      {
+        "codigo": "BA",
+        "nome": "Bahia"
+      },
+      {
+        "codigo": "CE",
+        "nome": "Ceara"
+      },
+      {
+        "codigo": "DF",
+        "nome": "Distrito Federal"
+      },
+      {
+        "codigo": "ES",
+        "nome": "Espirito Santo"
+      },
+      {
+        "codigo": "GO",
+        "nome": "Goias"
+      },
+      {
+        "codigo": "MA",
+        "nome": "Maranhao"
+      },
+      {
+        "codigo": "MG",
+        "nome": "Minas Gerais"
+      },
+      {
+        "codigo": "MS",
+        "nome": "Mato Grosso do Sul"
+      },
+      {
+        "codigo": "MT",
+        "nome": "Mato Grosso"
+      },
+      {
+        "codigo": "PA",
+        "nome": "Para"
+      },
+      {
+        "codigo": "PB",
+        "nome": "Paraiba"
+      },
+      {
+        "codigo": "PE",
+        "nome": "Pernambuco"
+      },
+      {
+        "codigo": "PI",
+        "nome": "Piaui"
+      },
+      {
+        "codigo": "PR",
+        "nome": "Parana"
+      },
+      {
+        "codigo": "RJ",
+        "nome": "Rio de Janeiro"
+      },
+      {
+        "codigo": "RN",
+        "nome": "Rio Grande do Norte"
+      },
+      {
+        "codigo": "RO",
+        "nome": "Rondonia"
+      },
+      {
+        "codigo": "RR",
+        "nome": "Roraima"
+      },
+      {
+        "codigo": "RS",
+        "nome": "Rio Grande do Sul"
+      },
+      {
+        "codigo": "SC",
+        "nome": "Santa Catarina"
+      },
+      {
+        "codigo": "SE",
+        "nome": "Sergipe"
+      },
+      {
+        "codigo": "SP",
+        "nome": "Sao Paulo"
+      },
+      {
+        "codigo": "TO",
+        "nome": "Tocantins"
+      }
+    ]
+  }  

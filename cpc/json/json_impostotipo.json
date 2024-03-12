@@ -1,0 +1,44 @@
+{
+  "lista": [
+    {
+      "codigo": "IR - Física",
+        "nome": "IR - Física"
+      },
+      {
+        "codigo": "IR - Jurídica",
+        "nome": "IR - Jurídica"
+      },
+      {
+        "codigo": "CSLL",
+        "nome": "CSLL"
+      },
+      {
+        "codigo": "PIS",
+        "nome": "PIS"
+      },
+      {
+      "codigo": "ICMS",
+        "nome": "ICMS"
+      },
+      {
+        "codigo": "COFINS",
+        "nome": "COFINS"
+      },
+      {
+        "codigo": "INSS",
+        "nome": "INSS"
+      },
+      {
+        "codigo": "ISS",
+        "nome": "ISS"
+      },
+      {
+        "codigo": "PIS/COFINS/CSLL",
+        "nome": "PIS/COFINS/CSLL"
+      },
+      {
+        "codigo": "Outros",
+        "nome": "Outros"
+      }
+      ]
+  }

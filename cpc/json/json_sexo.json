@@ -1,0 +1,12 @@
+{
+  "lista": [
+    {
+      "codigo": "F",
+        "nome": "Feminino"
+      },
+      {
+        "codigo": "M",
+        "nome": "Masculino"
+      }
+    ]
+  }

@@ -1,0 +1,36 @@
+{
+  "lista": [
+      {
+        "codigo": "1",
+        "nome": "PAGAMENTO POR CONVENIO - PLANO PRIVADO"
+      },
+      {
+        "codigo": "2",
+        "nome": "PAGAMENTO PARTICULAR PESSOA FISICA"
+      },
+      {
+        "codigo": "3",
+        "nome": "GRATUITO"
+      },
+      {
+        "codigo": "4",
+        "nome": "FINANCIADO PELA SECRETARIA ESTADUAL DE SAUDE (*)"
+      },
+      {
+        "codigo": "5",
+        "nome": "FINANCIADO PELA SECRETARIA MUNICIPAL DE SAUDE (**)"
+      },
+      {
+        "codigo": "6",
+        "nome": "PAGAMENTO POR CONVENIO - PLANO PUBLICO"
+      },
+      {
+        "codigo": "8",
+        "nome": "DPVAT"
+      },
+      {
+        "codigo": "9",
+        "nome": "PAGAMENTO PARTICULAR PESSOA JURIDICA"
+      }
+    ]
+  }

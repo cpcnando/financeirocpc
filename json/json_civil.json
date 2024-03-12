@@ -1,0 +1,24 @@
+{
+  "lista": [
+    {
+      "codigo": "1",
+        "nome": "Solteiro(a)"
+      },
+      {
+        "codigo": "2",
+        "nome": "Casado(a)"
+      },
+      {
+        "codigo": "3",
+        "nome": "Viuvo(a)"
+      },
+      {
+        "codigo": "4",
+        "nome": "Separacao Judicial"
+      },
+      {
+        "codigo": "5",
+        "nome": "Outros"
+      }
+    ]
+  }

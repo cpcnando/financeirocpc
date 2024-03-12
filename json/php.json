@@ -1,0 +1,56 @@
+{
+
+	"cpc Listagem": {
+		"prefix": "cpclistagem",
+		"body": [
+		  "else if (\\$_SESSION['listagem'] == '${1:comando}')",
+		  "    \\$sql = \"SELECT ${2:campopk} AS INDICE, ${3:campodescricao} AS DESCRICAO FROM ${4:tabela} WHERE ATIVO = 'S' ORDER BY 2\";",
+		  ""
+		],
+		"description": "cpc Listagem"
+	  },
+	  "cpc DML": {
+		"prefix": "cpcdml",
+		"body": [
+		  "",
+		  "if ((isset(\\$_POST['tipodml'])) && (\\$_POST['tipodml'] == '${1:tipo}'))",
+		  "{",
+		  "  ",
+		  "  if (\\$_POST['${2:campopk}'] ==='') \\$_POST['${2:campopk}'] = '-1';",
+		  "  \\$dml = \"update or insert into ${1:tipo} (${2:campopk},${3:campo}) values (?,?) matching (${2:campopk}) returning ${4:camporetorno}\";",
+		  "  \\$data = array(\\$_POST['${2:campopk}'], \\$_POST['${3:campo}']);",
+		  "  \\$dmlcmd = \\$${5:banco}->prepare(\\$dml);    ",
+		  "  try{",
+		  "    \\$dmlcmd->execute(\\$data);  ",
+		  "    \\$row = \\$dmlcmd->fetch(PDO::FETCH_ASSOC);",
+		  "      echo 'sucesso'.number_format(\\$row['${2:campopk}'], 0,'','');",
+		  "  }catch(PDOException \\$e){",
+		  "      echo \\$e->getMessage();",
+		  "  }  ",
+		  "  \\$row = \\$dmlcmd->fetch(PDO::FETCH_ASSOC);",
+		  "}",
+		  "",
+		  ""
+		],
+		"description": "cpc DML"
+	  },
+
+	  "cpc listacampo": {
+		"prefix": "cpclistacampo",
+		"body": [
+		  "if (\\$_POST['tipo'] == '${1:tipo}'){",
+		  "  \\$sql = \"select first 50 cast(${2:campopk} as integer) codigo, ${3:campodescricao} descricao from ${4:tabela} where ${3:campodescricao} containing '\".\\$_POST['valor'].\"' order by 2\";",
+		  "  ",
+		  "  foreach (\\$${5:banco}->query(\\$sql) as \\$rowlistacampo)",
+		  "  {  ",
+		  "",
+		  "?>",
+		  "<div class=\"dropdown-item\" onclick=\"$('#<? echo \\$_POST['componente'] ?>').val('<? echo \\$rowlistacampo['CODIGO'] ?>'); $('#<? echo \\$_POST['componente'] ?>select').val('<? echo \\$rowlistacampo['DESCRICAO'] ?>'); $('.dropdown-menu').removeClass('show');\"><? echo \\$rowlistacampo['DESCRICAO'] ?></div>",
+		  "",
+		  "<? } }",
+		  "",
+		  ""
+		],
+		"description": "cpc listacampo"
+	  }
+}

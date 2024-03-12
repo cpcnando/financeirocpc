@@ -1,0 +1,20 @@
+{
+  "lista": [
+    {
+      "codigo": "Dias mês seguinte",
+        "nome": "Dias mês seguinte"
+      },
+      {
+        "codigo": "Quinzenal",
+        "nome": "Quinzenal"
+      },
+      {
+        "codigo": "Mensal",
+        "nome": "Mensal"
+      },
+      {
+        "codigo": "Anual",
+        "nome": "Anual"
+      }
+      ]
+  }

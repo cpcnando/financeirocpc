@@ -1,0 +1,24 @@
+{
+  "lista": [
+    {
+      "codigo": "Banco",
+        "nome": "Banco"
+      },
+      {
+        "codigo": "Caixa",
+        "nome": "Caixa"
+      },
+      {
+        "codigo": "Cartão",
+        "nome": "Cartão"
+      },
+      {
+        "codigo": "Aplicação",
+        "nome": "Aplicação"
+      },
+      {
+        "codigo": "Custos",
+        "nome": "Conta de Custos"
+      }
+    ]
+  }

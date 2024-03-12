@@ -1,0 +1,20 @@
+{
+  "lista": [
+    {
+      "codigo": "Fixo",
+        "nome": "Fixo"
+      },
+      {
+        "codigo": "Variável",
+        "nome": "Variável"
+      },
+      {
+        "codigo": "Nulo",
+        "nome": "Nulo"
+      },
+      {
+        "codigo": "Importado",
+        "nome": "Importado"
+      }
+    ]
+  }

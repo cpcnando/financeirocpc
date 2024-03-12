@@ -1,0 +1,16 @@
+{
+  "lista": [
+    {
+      "codigo": "Ambos       ",
+        "nome": "Ambos"
+      },
+      {
+        "codigo": "Cliente     ",
+        "nome": "Cliente"
+      },
+      {
+        "codigo": "Fornecedor  ",
+        "nome": "Fornecedor"
+      }
+    ]
+  }

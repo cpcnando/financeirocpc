@@ -1,0 +1,12 @@
+{
+  "lista": [
+    {
+      "codigo": "E",
+        "nome": "Entrada"
+      },
+      {
+        "codigo": "S",
+        "nome": "Saída"
+      }
+      ]
+  }
